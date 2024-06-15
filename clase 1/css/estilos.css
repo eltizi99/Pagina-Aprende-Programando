@@ -1,0 +1,133 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+
+.barra-navegacion {
+ background-color: darkgrey;
+ position: sticky;
+ top: 0;
+ 
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+
+h2 {
+    color: crimson;
+    text-align: center;
+}
+
+
+h3 {
+    color: gold;
+}
+
+h4 {
+    color: gold;
+}
+
+a {
+    color: cyan;
+    text-decoration: none;
+}
+
+
+.link-home { 
+text-decoration: none;
+transition: all 2s ease
+}
+
+.link-home:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+
+
+
+.contenedor-productos {
+    display: flex;
+}
+
+.imgproducto1 {
+    width: 9rem;
+    height: 20rem;
+}
+.card1{
+    width: 200px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: solid 10px black
+    
+}
+
+.imgproducto2 {
+    width: 9rem;
+    height: 20rem;
+}
+
+.card2 {
+    width: 200px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: solid 10px black
+}
+
+.imgproducto3 {
+    width: 9rem;
+    height: 20rem;
+}
+
+.card3 {
+    width: 200px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: solid 10px black
+}
+
+.imgproducto4 {
+    width: 9rem;
+    height: 20rem;
+}
+
+.card4 {
+    width: 200px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: solid 10px black
+}
+
+.imgproducto5 {
+    width: 9rem;
+    height: 20rem;
+}
+
+.card5 {
+    width: 200px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: solid 10px black
+}
+
+.icono-wsp{
+ color: rgb(3, 150, 3);
+ font-size: 50px;
+ position: fixed;
+ bottom: 10px;
+ right: 10px;
+ transition: all 2.5s linear;
+}
+
+.icono-wsp :hover {
+    transform: rotate(180deg);
+}
+
+.contenedor-productos {
+    display: flex;
+}
